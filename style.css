@@ -1,0 +1,251 @@
+/* Font inclusion */
+@font-face {
+  font-family: Sharp Grotesk-Medium;
+  src: url(parallel/SharpGrotesk-Medium.woff);
+}
+
+
+@font-face {
+  font-family: Work Sans-Medium;
+  src: url(parallel/WorkSans-Medium.woff);
+}
+
+
+@font-face {
+  font-family: Work Sans-Regular;
+  src: url(parallel/WorkSans-Regular.woff);
+}
+
+
+@font-face {
+  font-family: Work Sans-SemiBold;
+  src: url(parallel/WorkSans-SemiBold.woff);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Main container */
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/* Main */
+main {
+  background-color: #fff7f1;
+}
+
+
+/* Intro content */
+main .content {
+  padding: 80px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+/* Whole intro text content */
+main .content .content_text {
+  width: 974px;
+}
+
+
+/* Career Drop */
+main .content .career_drop p {
+  font-family: Sharp Grotesk-Medium;
+  font-stretch: extra-condensed;
+}
+
+
+/* Career drop arrow image */
+main .content .career_drop .arrow img {
+  width: 200px;
+  margin: 6px 0;
+}
+
+
+/* Parallel logo image */
+.content .career_drop .logo img {
+  width: 200px;
+}
+
+
+/* Content title */
+main .content .title h1 {
+  font-size: 84px;
+  margin: 20px 0;
+  font-family: Sharp Grotesk-Medium;
+  font-weight: 100;
+}
+
+
+/* Sign up section */
+main .content .sign_up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Sign up text division*/
+main .content .sign_up .text {
+  position: relative;
+  top: -26px;
+}
+
+
+/* Sign up text styling */
+main .content .sign_up .text p {
+  font-family: Work Sans-Regular;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+/* Sign up form styling */
+main .content .sign_up .form input[type="email"] {
+  font-family: Work Sans-Regular;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 340px;
+  height: 50px;
+  margin: 20px 0;
+}
+
+
+main .content .sign_up .form input[type="submit"] {
+  font-family: Work Sans-SemiBold;
+  font-size: 16px;
+  padding: 14px 30px;
+  border-radius: 10px;
+  background-color: #ffd560;
+}
+
+
+/* Intro image section*/
+main .content .content_image {
+  position: absolute;
+  right: 0;
+}
+
+
+/* Footer section */
+footer {
+  color: #fff;
+  background-color: #000;
+}
+
+
+/* Footer Background logo gradient */
+footer .background {
+  background-image: linear-gradient(to top, #ffffff1f, #000);
+  background-blend-mode:multiply;
+}
+
+
+/* Footer background image color inversion*/
+footer .bg_img{
+  filter: invert(1);
+  opacity: 0.1;
+}
+
+
+/* Footer background image */
+footer .bg_img img{
+  position: absolute;
+  z-index: 0;
+  width: 1320px;
+  height: 500px;
+}
+
+/* Footer content */
+footer .footer_content {
+  padding: 100px 150px 100px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Footer content headings */
+footer .footer_content p {
+  font-family: Work Sans-SemiBold;
+  margin-bottom: 20px;
+}
+
+
+/* Footer content column contents */
+footer .footer_content .links {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Hire different column */
+footer .footer_content .hire {
+  margin-right: 80px;
+}
+
+
+footer .footer_content .hire p {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+
+footer .footer_content .hire img {
+  margin-right: 14px;
+}
+
+
+footer .footer_content .hire img:last-child {
+  margin-right: none;
+}
+
+
+/* Footer content column headings */
+footer .footer_content .column p {
+  font-size: 20px;
+}
+
+
+/* Footer content column links */
+footer .footer_content .column .links a {
+  text-decoration: none;
+  color: #fff7f1;
+  font-family: Work Sans-Regular;
+  line-height: 3;
+}
+
+
+/* Footer rights subtext */
+footer .subtext {
+  display: flex;
+  justify-content: space-between;
+  font-family: Work Sans-Regular;
+  font-size: 12px;
+  padding-bottom: 100px;
+  color: #fff7f1;
+  padding: 50px;
+}
+
+
+/* Privacy policy and terms of service */
+footer .subtext a {
+  text-decoration: none;
+  color: #fff7f1;
+  margin-right: 20px;
+}
+
+
+footer .subtext a:last-child {
+  margin-right: none;
+}
